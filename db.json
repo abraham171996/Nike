@@ -1,0 +1,64 @@
+{
+    "products":[
+        {   
+            "id": 1,
+            "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/40d5a277-2ea8-4df8-9c54-fe3ae3dcf803/sabrina-1-spark-basketball-shoes-f8jr2H.png",
+            "variant":"Just In",
+            "title":"Nike Air Force 1 Mid '07",
+            "category":"Men's Shoes",
+            "colorCount":"1 Colour",
+            "price":"AZN:220.69",
+            "description":"The Nike Air Force 1 Mid '07 is everything you know best: ‘80s construction, smooth leather and nothin’-but-net style. Plus, we're taking it up a notch with a padded, mid-cut collar with an adjustable strap."
+        },
+        {
+            "id": 2,
+            "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/773e1059-e768-4f07-a179-cfff7dbdfabc/sabrina-1-ionic-basketball-shoes-f8jr2H.png",
+            "variant":"Just In",
+            "title":"Nike Court Vision Low Next Nature",
+            "category":"Men's Shoes",
+            "colorCount":"1 Colour",
+            "price":"AZN:100.17",
+            "description":"In love with the classic look of '80s basketball but have a thing for the fast-paced culture of today's game? Meet the Nike Court Vision Low. A classic remixed with at least 20% recycled materials by weight, its crisp upper and stitched overlays keep the soul of the original style. The plush, low-cut collar keeps it sleek and comfortable for your world."
+        },
+        {
+            "id": 3,
+            "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f758267c-ee83-4a7d-83cc-4b045b77ddda/dunk-low-mens-shoes-C0N2DF.png",
+            "variant":"Just In",
+            "title":"Nike Air Force 1 PLT.AF.ORM",
+            "category":"Women's Shoes",
+            "colorCount":"1 Colour",
+            "price":"AZN:165.89",
+            "description":"Keep stepping into summer vibes with this beach-inspired edition of the Air Force 1 PLT.AF.ORM. Its elegantly shaped, lifted midsole delivers a fresh look to the hoops franchise while layered details add dimension. With leather that ages to soft perfection, a sculpted collar and hidden Air cushioning underfoot, these unique kicks let you make a statement—in comfort."
+        },
+        {
+            "id": 4,
+            "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e6c104e8-6726-4140-8838-0703c5ed4fe9/air-jordan-1-low-og-shoes-v0FbJt.png",
+            "variant":"Just In",
+            "title":"Nike Air Force 1 React",
+            "category":"Men's Shoes",
+            "colorCount":"1 Colour",
+            "price":"AZN:269.85",
+            "description":"Join the party and celebrate 40 years of pushing sport and fashion boundaries with the Air Force 1 React. Taking a bold step into b-ball iconography, its plush React foam and amplified outsole bring new-age comfort. Polished gold details and fresh branding that blends logos from past releases honor the fearless off-court look and pay tribute to the AF1's reign."
+        },
+        {
+            "id": 5,
+            "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/baccff07-c847-43d5-bdb3-a78b7fd3846e/air-jordan-1-mid-se-craft-mens-shoes-p0kWbP.png",
+            "variant":"Promo Exclusion",
+            "title":"Air Jordan 1 Elevate Low",
+            "category":"Women's Shoes",
+            "colorCount":"1 Colour",
+            "price":"AZN:243.17",
+            "description":"Rise to the occasion in style that soars. This shoe reworks an icon's original magic with a platform sole and low cut silhouette. Air cushioning keeps you lifted, and sleek leather in contrasting colors adds visual interest."
+        },
+        {
+            "id": 6,
+            "image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f819373a-e74b-440b-a6a4-8d78bd225b99/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+            "variant":"Sustainable Materials",
+            "title":"Nike Dri-FIT UV Hyverse",
+            "category":"Men's Short-Sleeve Graphic Fitness Top",
+            "colorCount":"1 Colour",
+            "price":"AZN:51.01",
+            "description":"It's moving day. Are you ready? Let us get you out the door in our sweat-wicking Hyverse Top. It has a soft feel and UV protection so you can get through your hardest workouts in comfort. Graphics on the chest and back advertise the Nike Moving Co., which has got people out of their houses for over 50 years."
+        }
+    ]
+}

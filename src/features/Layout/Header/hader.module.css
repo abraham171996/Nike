@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #F5F5F5;
+    padding: 6px 48px 11px 60px;
+}
+
+.subHeader_lists {
+    display: flex;
+    gap: 32px;
+}
+
+.subHeader_lists li {
+    color: #111;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.skip_content {
+    background-color: #fff;
+    padding: 5px 9.8px 5px 10px;
+    margin-left: 170px;
+}
+
+.skip_content a {
+    color: #111;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.headerBottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.headerBottom figure{
+    cursor: pointer;
+}
+.navList {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navList a {
+    color: #111;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.inpt {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.inpt input {
+    
+    width: 180px;
+    height: 40px;
+    padding: 11px 48px;
+    border-radius: 100px;
+    background: #F5F5F5;
+    border: none;
+}
+
+.inpt svg {
+    position: absolute;
+    left: 10px;
+}
+.forCustomer{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.header_icons svg{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+@media(max-width:1024px){
+    .skip_content{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .headerTop{
+        
+        padding: 6px 20px 11px 32px;
+    }
+}
+@media(max-width:480px){
+    .headerBottom figure img{
+        width: 40px !important; 
+        height: 40px;
+    }
+    .inpt input{
+        width: 140px;
+        height: 25px;
+        padding: 5px 48px;
+    }
+    .header_icons svg{
+        width: 14px;
+        height: 14px;
+    }
+    .subHeader_lists,.forCustomer{
+        gap: 12px;
+    }
+}

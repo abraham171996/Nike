@@ -1,0 +1,66 @@
+.addcard{
+    width: 280px;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#111;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+    top: 17%;
+    right: 2%;
+}
+.addcardShow{
+    display: flex;
+}
+.addcardTop{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+.addcardTop svg{
+    font-size: 24px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+  }
+.addcard ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.addcard figure img{
+    width: 20%;
+    margin: 15px 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.addcard button{
+    margin: 0 5px;
+}
+
+@media(max-width:768px){
+    .addcard{
+        width: 150px !important;
+
+    }
+    .addcard button{
+        margin: 0 2px !important;
+        padding: 5.5px 13.5px 5.5px 13.5px !important;
+    }
+    .addcardTop h1{
+            font-size: 12px !important;
+    }
+    .addcardTop svg{
+        font-size: 12px !important;
+    }
+}

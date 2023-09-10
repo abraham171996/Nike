@@ -1,0 +1,146 @@
+.footer {
+    width: 100%;
+    background-color: #111111;
+    padding: 40px 0;
+    color: #fff;
+    
+}
+.footer_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+}
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_top_left {
+    display: flex;
+    gap: 150px;
+}
+
+.footer_top_left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 19.66px;
+}
+
+.footer_top_left h3 {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.667px;
+    /* 326.667% */
+    text-transform: uppercase;
+}
+
+.footer_top_left li {
+    color: #7E7E7E;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer_top_right {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer_top_right svg {
+    width: 30px;
+    height: 30px;
+    background-color: #7E7E7E;
+    border-radius: 50%;
+    padding: 4px;
+    color: #111111;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_bottom_left {
+    display: flex;
+    align-items: center;
+    gap: 24.03px;
+    justify-content: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2.8px;
+}
+
+.footer_bottom_right ul {
+    display: flex;
+    align-items: center;
+    gap: 27.8px;
+}
+
+.footer_bottom_right ul li  {
+    color: #7E7E7E;
+    text-align: center;
+    font-family: Helvetica ;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+@media(max-width:1024px){
+    .footer_top{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .footer_top_left{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        text-align: center;
+    }
+    .footer_top_right{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer_bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer_bottom_left{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer_bottom_right ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

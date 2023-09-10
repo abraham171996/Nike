@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+#products{
+    width: 100%;
+    padding: 48px 0;
+}
+#details{
+    width: 100%;
+    padding: 48px 0;
+}
+#hello {
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 48px;
+    background-color: #F5F5F5;
+}
+
+#airmax {
+    padding: 48px 0;
+    width: 100%;
+    
+}
+
+.btn {
+    padding: 7.5px 22.656px 7.5px 21.5px;
+    border: none;
+    border-radius: 30px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.container {
+    padding: 0 48px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+
+    font-size: 18px;
+    background: #fff;
+    width: 441.359px;
+    height: auto;
+    /* Center slide text vertically */
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 21px;
+}
+
+.porduct-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.porduct-info .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info h3 {
+    color: #111;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.info span {
+    color: #757575;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price p {
+    color: #111;
+    text-align: right;
+    font-family: Helvetica ;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#feature{
+    width: 100%;
+    padding: 48px 0;
+}
+#step{
+    width: 100%;
+    padding: 48px 0;
+}
+#dontMiss{
+    width: 100%;
+    padding-top: 84px;
+    padding-bottom: 48px ;
+}
+#essentials{
+    width: 100%;
+    padding: 48px 0;
+}
+#categories{
+    width: 100%;
+    padding-top: 87px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 153px;
+    flex-wrap: wrap;
+}
+@media(max-width:1024px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+@media(max-width:768px){
+    #categories{
+        text-align: center;
+    }
+}
